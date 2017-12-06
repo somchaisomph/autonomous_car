@@ -14,11 +14,11 @@ $ sudo apt-get install pigpio python3-pigpio
 ```
 ## pigpiod at boot time
 1. `$ sudo contrab -e`
-2.เพิ่มคำสั่งนี้ลงไปในบรรทัดสุดท้าย
+2. เพิ่มคำสั่งนี้ลงไปในบรรทัดสุดท้าย
 ```
 @reboot sudo /usr/bin/pigpiod
 ```
-3.บันทึก
+3. บันทึก
 
 ***
 # ติดตั้ง Python Bluetooth LE interface
