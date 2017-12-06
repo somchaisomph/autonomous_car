@@ -26,12 +26,17 @@
   
 <li>การเปลี่ยนแปลงค่าของ Accelerometer ในแนวแกน X เป็นการกำหนดทิศทางการลี้ยว
 <img src="http://microbit-challenges.readthedocs.io/en/latest/_images/microbitAxes.jpg"/>
+ <ul>
+  <li>เอียงขวา = เลี้ยวขวา</li>
+  <li>เอียงขวา = เลี้ยวซ้าย</li>
+ </ul>
  </li>
  </ol>
-ขั้นตอนการติดตั้ง
+<h2>ขั้นตอนการ compile</h2>
 <ol>
   <li> สร้างโครงานตามขั้นตอนของ yotta</li>
   <li> สำเนา source/main.cpp ไปยังโครงงานของท่าน </li>
-  
+  <li> สำเนา config.json ไปยังโครงงานของท่าน </li>
+  <li> yt clean ตามด้วย yt build</li>
 </ol>
   
