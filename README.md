@@ -1,5 +1,9 @@
 # raspberry pi -microbit robot car
 
 # รายการอุปกรณ์
-## โครงรถ ใช้ระบบควบคุมการเลี้ยวด้วย servo
-<img src="http://cu.lnwfile.com/_/cu/_raw/4c/lf/6i.jpg" />
+1. ชุดโครงรถ ใช้ระบบควบคุมการเลี้ยวด้วย servo
+2. BBC Microbit
+3. Raspberry Pi Zero W
+4. Motor Drive L298D
+5. Servo
+
