@@ -37,6 +37,6 @@ $ sudo apt-get install pigpio python3-pigpio
 
 ***
 # Raspberry Pi กับ Servo
-| Raspberry Pi GPIO | Motor Drive |
+| Raspberry Pi GPIO |    Servo    |
 |-------------------|-------------|
 |         18        |    Signal   |
