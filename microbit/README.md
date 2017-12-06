@@ -35,8 +35,10 @@
 <h2>ขั้นตอนการ compile</h2>
 <ol>
   <li> สร้างโครงานตามขั้นตอนของ yotta</li>
-  <li> สำเนา source/main.cpp ไปยังโครงงานของท่าน </li>
-  <li> สำเนา config.json ไปยังโครงงานของท่าน </li>
-  <li> yt clean ตามด้วย yt build</li>
+  <li> สำเนา source/main.cpp ไปยัง  source ในโครงงานของท่าน</li>
+  <li> สำเนา config.json ไปยังโครงงานของท่าน ให้อยู่ใน folder ระดับสุงสุดของโครงงาน </li>
+  <li> yt clean <br/> 
+       yt build</li>
 </ol>
-  
+ <b>หมายเหตุ</b>
+ ใน config.json ได้มีการกำหนดค่าให้ bluetooth.open = 1 ไว้ หมายถึง กำหนดให้ microbit สามารถติดต่อกับ Bluetooth อื่นได้โดยไม่ต้องผ่านขั้นตอนการ pair ในกรณีที่ไม่ต้องการข้ามขั้นตอนการ pair ให้กำหนด bluetooth.open = 0 ก่อนการ compile
