@@ -2,7 +2,7 @@ from Services import BTService, UBitBtnService,AccelService
 from Actors import GPIODriver,SteeringJob
 from bluepy import btle
 import Microbit as Ubit 
-import sys
+
 
 
 class MyDelegate(btle.DefaultDelegate):
