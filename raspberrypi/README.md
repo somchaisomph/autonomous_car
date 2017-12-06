@@ -23,3 +23,16 @@ $ sudo apt-get install pigpio python3-pigpio
 ***
 # ติดตั้ง Python Bluetooth LE interface
 ทำการติดตั้ง bluepy ได้จากเว็บไซต์ https://github.com/IanHarvey/bluepy
+
+***
+# Raspberry Pi กับ Motor Drive L298D
+| Raspberry Pi GPIO | Motor Drive |
+|-------------------|-------------|
+|         16        |    ENB      |
+|         26        |    ENA      |
+|         19        |    IN1      |
+|         23        |    IN2      |
+|         21        |    IN3      |
+|         20        |    IN4      |
+
+***
