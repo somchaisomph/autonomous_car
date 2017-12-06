@@ -2,25 +2,32 @@
 หน้าที่ของ BBC-microbit คือ เป็น remote control สำหรับบังคับ car โดยอาศัยข้อมูลจาก Bluetooth Service
 
 <h2>การบังคับ</h2>
-<b>กดปุ่ม A </b>
+<ol>
+<li><b>กดปุ่ม A </b>
 <ol>
  <li>car ไปข้างหน้า</li>
  <li>กด long press เป็นการเร่งความเร็ว</li>
  </ol>
+ </li>
+ <li>
+  
 <b>กดปุ่ม B </b>
 <ol>
  <li>car ถอยหลัง</li>
  <li>กด long press เป็นการเร่งความเร็ว</li>
  </ol>
-<b>กดปุ่ม A-B พร้อมกัน </b>
+ </li>
+<li><b>กดปุ่ม A-B พร้อมกัน </b>
 <ol>
  <li>ยุติการทำงาน</li>
  
  </ol>
-
+</li>
   
-การเปลี่ยนแปลงค่าของ Accelerometer ในแนวแกน X เป็นการกำหนดทิศทางการลี้ยว</li>
- 
+<li>การเปลี่ยนแปลงค่าของ Accelerometer ในแนวแกน X เป็นการกำหนดทิศทางการลี้ยว
+<img src="http://microbit-challenges.readthedocs.io/en/latest/_images/microbitAxes.jpg"/>
+ </li>
+ </ol>
 ขั้นตอนการติดตั้ง
 <ol>
   <li> สร้างโครงานตามขั้นตอนของ yotta</li>
