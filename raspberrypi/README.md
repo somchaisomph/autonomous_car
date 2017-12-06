@@ -40,3 +40,9 @@ $ sudo apt-get install pigpio python3-pigpio
 | Raspberry Pi GPIO |    Servo    |
 |-------------------|-------------|
 |         18        |    Signal   |
+
+***
+# การติดตั้ง Python Script
+1. เปิด Bluetooth
+2. สำเนา Services.py, Util.py, Actors.py,Microbit.py และ test_robot_car.py ไปวางไว้ใน folder เดียวกัน บน Raspberry Pi
+3. ทดสอบเรียกใช้งาน `python3 test_robot_car.py`
