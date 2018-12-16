@@ -28,7 +28,7 @@
 <img src="http://microbit-challenges.readthedocs.io/en/latest/_images/microbitAxes.jpg"/>
  <ul>
   <li>เอียงขวา = เลี้ยวขวา</li>
-  <li>เอียงขวา = เลี้ยวซ้าย</li>
+  <li>เอียงซ้าย = เลี้ยวซ้าย</li>
  </ul>
  </li>
  </ol>
